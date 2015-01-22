@@ -2,7 +2,7 @@ require 'sinatra'
 require 'mandrill'
 
 get '/' do 
-	@title = "Sprinkle Ink"
+	@title = "Sprinkle Ink Inc."
 	erb :home
 end
 
