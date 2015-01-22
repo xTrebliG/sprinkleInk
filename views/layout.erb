@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/inkStyle.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<title><%= @title %></title>
 	</head>
 		<body>
-			<%= yield %>
-		</body>
-		<footer>
+			<% links = {'Home |' => '/', 'Our Collection |' => '/signaturePens', 'Contact |' => '/contact', 'About Us' => '/aboutus'} %>
+		<nav>
+		<div class="companyName">Sprinkle Ink Inc.</div>
+			<ul>
+				<% for key, value in links do %>
+					<li><a href='<%= value %>'><%= key %></a></li>
 
-		</footer>
+				<% end %>
+			</ul>
+		</nav>
+			<%= yield %>
+			<footer>
+				<div class="contact"><p class="motto">"A pen company with a dash of class"</p><br><p>© 2015 Sprinkle Ink Inc.</p></div>
+				<div class="hr">
+				<hr align="center" />
+				</div>
+				<i class="icon-camera-retro icon-2x"></i>
+				<i class="icon-twitter icon-2x"></i>
+				<i class="icon-facebook-sign icon-2x"></i>
+			</footer>
+
+		</body>
+		
 </html>
