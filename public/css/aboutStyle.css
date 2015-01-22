@@ -1,0 +1,24 @@
+.aboutContent{
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 95px;
+	padding-bottom: 50px;
+
+}
+
+
+.aboutContent img {
+	height: 400px;
+	width: 400px;
+	border: 1px solid black;
+	float: left;
+	margin-right: 5px;
+}
+
+.aboutContent p {
+	text-align: justify;
+}
+
+.aboutContent h1 {
+	text-align: center;
+}
