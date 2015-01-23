@@ -6,18 +6,54 @@
 
 .contactUs {
 	padding-top: 95px;
-	font-size: 15px;
-	padding-left: 20px;
+	/*font-size: 15px;*/
+	width: 900px;
+	height: 74%;
+	margin: 0 auto;
+	font-weight: 200;
+	
 }
 
-form {
-	margin-bottom: 100px;
-	padding-left: 20px;
-}
-label{
-	cursor: default;
+.contactUs hr {
+	margin-bottom: 70px;
 }
 
-h3{
-	font-size:1.2em;
+.contactUs h1 {
+	text-align: center;
 }
+
+.formBox, .opinionText{
+	/*border: 1px black solid;*/
+	height: 300px;
+	width: 400px;
+	float: left;
+	padding: 15px;
+
+}
+
+.formBox h1{
+	padding-bottom: 10px;
+
+}
+
+
+
+.opinionText {
+	margin-left: 20px;
+	font-size: 1.3em;
+	text-align: justify;
+
+}
+
+.opinionText h1 {
+	margin-bottom: 40px;
+	padding-left: 20px;
+	
+}
+
+
+#sInk{
+	text-align: right;
+
+}
+

@@ -1,7 +1,13 @@
+html, body {
+	height: 100%;
+}
+
 body{
 	background-color: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
-	margin: 0;
+	margin: 0px;
+    padding: 0px;
+
 }
 nav{
 	color: #FFFFFF;
@@ -51,10 +57,12 @@ ul{
 	padding-right: 15px;
 }
 .companyName{
-	font-size: 3em;
+	/*font-size: 3em;*/
 	float: left;
-	padding-left: 20px;
-	padding-top: 20px;
+	margin-top: -10px;
+	margin-left: 10px;
+	/*padding-left: 20px;
+	padding-top: 20px;*/
 }
 
 /* unvisited link */

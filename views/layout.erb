@@ -4,6 +4,8 @@
 		<link rel="stylesheet" type="text/css" href="../css/inkStyle.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/aboutStyle.css">
+		<link rel="stylesheet" type="text/css" href="../css/contactStyle.css">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 		<link href="../favicon.ico" rel="icon" type="image/x-icon" />
 	<title><%= @title %></title>
@@ -11,7 +13,7 @@
 		<body>
 			<% links = {'Home |' => '/', 'Our Collection |' => '/signaturePens', 'Contact |' => '/contact', 'About Us' => '/aboutus'} %>
 		<nav>
-		<div class="companyName">Sprinkle Ink Inc.</div>
+		<div class="companyName"><img src="../images/siLogo.png" alt="SprinkleInkLogo"></div>
 			<ul>
 				<% for key, value in links do %>
 					<li><a href='<%= value %>'><%= key %></a></li>
