@@ -8,3 +8,13 @@
 .browsepens{
 	text-align: center;
 }
+
+img{
+	z-index: -1;
+	
+
+}
+
+h3{
+	font-size: .75em;
+}
