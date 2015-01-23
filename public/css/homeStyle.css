@@ -11,10 +11,33 @@
 
 img{
 	z-index: -1;
-	
+
 
 }
 
 h3{
-	font-size: .75em;
+	font-weight: 200;
+	text-align: left;
+	padding-left: 15px;
 }
+
+.featuredcollection{
+	text-align: center;
+	font-size: 1.5em;
+	width: 900px;
+	text-align: center;
+	margin:0 auto;
+}
+
+h4
+{
+    z-index:2;
+    position:absolute;    
+    color:black;
+    font-size:24px;
+    font-weight:bold;
+   	padding-left: 265px;
+   	
+   
+}
+
