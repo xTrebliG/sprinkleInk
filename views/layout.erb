@@ -12,7 +12,7 @@
 		<body>
 			<% links = {'Home |' => '/', 'Our Collection |' => '/signaturePens', 'Contact |' => '/contact', 'About Us' => '/aboutus'} %>
 		<nav>
-		<div class="companyName">Sprinkle Ink Inc.</div>
+		<div class="companyName"><img src="../images/siLogo.png" alt="SprinkleInkLogo"></div>
 			<ul>
 				<% for key, value in links do %>
 					<li><a href='<%= value %>'><%= key %></a></li>
