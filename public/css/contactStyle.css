@@ -7,8 +7,17 @@
 .contactUs {
 	padding-top: 95px;
 	font-size: 15px;
+	padding-left: 20px;
 }
 
 form {
 	margin-bottom: 100px;
+	padding-left: 20px;
+}
+label{
+	cursor: default;
+}
+
+h3{
+	font-size:1.2em;
 }
