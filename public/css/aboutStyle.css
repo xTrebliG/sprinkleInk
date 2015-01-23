@@ -3,14 +3,13 @@
 	height: 100%;
 	margin: 0 auto;
 	padding-top: 95px;
-	padding-bottom: 50px;
+	padding-bottom: 25%;
 
 }
 
 
 .aboutContent img {
-	height: 400px;
-	width: 400px;
+
 	border: 1px solid black;
 	float: left;
 	margin-right: 5px;
@@ -24,6 +23,24 @@
 	text-align: center;
 }
 
+
+.aboutSprinkleLogo {
+	display: inline-block;
+	margin: 0 auto;
+
+
+}
+
+.aboutSprinkleLogo img {
+	padding: 20px;
+	border:none;
+
+
+}
+
+.logoLeft {
+	margin-left: 9px;
+}
 .teamStory {
-	padding-top: 100px;
+	padding-top: 50px;
 }
