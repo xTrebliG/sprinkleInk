@@ -91,3 +91,7 @@ a:active {
     text-decoration: none;
 }
 
+.thankYouMsg {
+	padding-bottom: 50%;
+	text-align: center;
+}
