@@ -6,6 +6,7 @@
 
 .contactUs {
 	padding-top: 95px;
+<<<<<<< HEAD
 	/*font-size: 15px;*/
 	width: 900px;
 	height: 74%;
@@ -47,6 +48,22 @@
 
 .opinionText h1 {
 	margin-bottom: 40px;
+=======
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+form {
+	margin-bottom: 100px;
+	padding-left: 20px;
+}
+label{
+	cursor: default;
+}
+
+h3{
+	font-size:1.2em;
+>>>>>>> e8a2db02358fe7c34f697ac7afabf3652cd621e8
 }
 
 #sInk{
