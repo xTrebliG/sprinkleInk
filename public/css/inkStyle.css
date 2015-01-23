@@ -47,12 +47,12 @@ footer{
 	margin:0 auto;
 }
 
-li{
+.navLink{
 	list-style: none;
 	display: inline;
 	padding-right: 15px;
 }
-ul{
+.navLinks{
 	float: right;
 	padding-right: 15px;
 }
